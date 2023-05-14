@@ -1,0 +1,245 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = VP
+build_property.RootNamespace = VP
+build_property.ProjectDir = C:\Users\Vlado\Desktop\VP\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Vlado\Desktop\VP
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Vlado/Desktop/VP/Views/DodjelaVozila/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9kamVsYVZvemlsYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/DodjelaVozila/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9kamVsYVZvemlsYVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/DodjelaVozila/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9kamVsYVZvemlsYVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/DodjelaVozila/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9kamVsYVZvemlsYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/DodjelaVozila/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9kamVsYVZvemlsYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Kategorija/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlqYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Kategorija/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlqYVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Kategorija/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlqYVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Kategorija/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlqYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Kategorija/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlqYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/LokacijaVozila/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYWNpamFWb3ppbGFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/LokacijaVozila/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYWNpamFWb3ppbGFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/LokacijaVozila/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYWNpamFWb3ppbGFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/LokacijaVozila/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYWNpamFWb3ppbGFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/LokacijaVozila/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYWNpamFWb3ppbGFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Marka/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2FcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Marka/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2FcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Marka/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2FcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Marka/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2FcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Marka/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2FcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/ModelVozila/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxWb3ppbGFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/ModelVozila/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxWb3ppbGFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/ModelVozila/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxWb3ppbGFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/ModelVozila/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxWb3ppbGFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/ModelVozila/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxWb3ppbGFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Pozicija/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96aWNpamFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Pozicija/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96aWNpamFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Pozicija/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96aWNpamFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Pozicija/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96aWNpamFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Pozicija/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96aWNpamFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/UposlenikKategorija/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBvc2xlbmlrS2F0ZWdvcmlqYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/UposlenikKategorija/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBvc2xlbmlrS2F0ZWdvcmlqYVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/UposlenikKategorija/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBvc2xlbmlrS2F0ZWdvcmlqYVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/UposlenikKategorija/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBvc2xlbmlrS2F0ZWdvcmlqYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/UposlenikKategorija/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBvc2xlbmlrS2F0ZWdvcmlqYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Uposlenik/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBvc2xlbmlrXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Uposlenik/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBvc2xlbmlrXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Uposlenik/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBvc2xlbmlrXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Uposlenik/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBvc2xlbmlrXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Uposlenik/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBvc2xlbmlrXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Vozilo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm96aWxvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Vozilo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm96aWxvXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Vozilo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm96aWxvXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Vozilo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm96aWxvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Vozilo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm96aWxvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/VrstaVozila/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVnJzdGFWb3ppbGFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/VrstaVozila/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVnJzdGFWb3ppbGFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/VrstaVozila/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVnJzdGFWb3ppbGFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/VrstaVozila/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVnJzdGFWb3ppbGFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/VrstaVozila/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVnJzdGFWb3ppbGFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/VP/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-z6gbnodv40
