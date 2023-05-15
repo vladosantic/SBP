@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vlado\\Desktop\\VP\\VP.csproj": {}
+    "D:\\SBP\\VP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vlado\\Desktop\\VP\\VP.csproj": {
+    "D:\\SBP\\VP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vlado\\Desktop\\VP\\VP.csproj",
+        "projectUniqueName": "D:\\SBP\\VP.csproj",
         "projectName": "VP",
-        "projectPath": "C:\\Users\\Vlado\\Desktop\\VP\\VP.csproj",
-        "packagesPath": "C:\\Users\\Vlado\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vlado\\Desktop\\VP\\obj\\",
+        "projectPath": "D:\\SBP\\VP.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\SBP\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Vlado\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -82,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

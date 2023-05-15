@@ -2,6 +2,14 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Data;
+using VP.Models;
+using VP.Controllers;
+
 
 namespace VP.Models;
 

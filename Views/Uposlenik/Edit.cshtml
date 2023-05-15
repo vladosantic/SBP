@@ -1,4 +1,4 @@
-@model VP.Models.Uposlenik
+﻿@model VP.Models.Uposlenik
 
 @{
     ViewData["Title"] = "Edit";
@@ -14,42 +14,42 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="IdUposlenik" />
             <div class="form-group">
-                <label asp-for="Ime" class="control-label"></label>
+                <label asp-for="Ime" class="control-label">Ime</label>
                 <input asp-for="Ime" class="form-control" />
                 <span asp-validation-for="Ime" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Prezime" class="control-label"></label>
+                <label asp-for="Prezime" class="control-label">Prezime</label>
                 <input asp-for="Prezime" class="form-control" />
                 <span asp-validation-for="Prezime" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="PozicijaId" class="control-label"></label>
+                <label asp-for="PozicijaId" class="control-label">ID pozicije</label>
                 <select asp-for="PozicijaId" class="form-control" asp-items="ViewBag.PozicijaId"></select>
                 <span asp-validation-for="PozicijaId" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Adresa" class="control-label"></label>
+                <label asp-for="Adresa" class="control-label">Adresa</label>
                 <input asp-for="Adresa" class="form-control" />
                 <span asp-validation-for="Adresa" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="BrojMobitela" class="control-label"></label>
+                <label asp-for="BrojMobitela" class="control-label">Broj mobitela</label>
                 <input asp-for="BrojMobitela" class="form-control" />
                 <span asp-validation-for="BrojMobitela" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Jmbg" class="control-label"></label>
+                <label asp-for="Jmbg" class="control-label">JMBG</label>
                 <input asp-for="Jmbg" class="form-control" />
                 <span asp-validation-for="Jmbg" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
+                <label asp-for="Email" class="control-label">Email</label>
                 <input asp-for="Email" class="form-control" />
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="DatumRodjenja" class="control-label"></label>
+                <label asp-for="DatumRodjenja" class="control-label">Datum rođenja</label>
                 <input asp-for="DatumRodjenja" class="form-control" />
                 <span asp-validation-for="DatumRodjenja" class="text-danger"></span>
             </div>

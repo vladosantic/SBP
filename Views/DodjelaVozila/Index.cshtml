@@ -1,4 +1,4 @@
-@model IEnumerable<VP.Models.DodjelaVozila>
+﻿@model IEnumerable<VP.Models.DodjelaVozila>
 
 @{
     ViewData["Title"] = "Index";
@@ -13,19 +13,19 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Dodjeljeno)
+                Datum dodjele
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.VratitiDo)
+               Datum vraćanja
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Dodatak)
+               Dodatak
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.IdUposlenikaNavigation)
+                ID uposlenika
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.IdVozilaNavigation)
+                ID vozila
             </th>
             <th></th>
         </tr>

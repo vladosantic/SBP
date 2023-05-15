@@ -1,4 +1,4 @@
-@model VP.Models.DodjelaVozila
+﻿@model VP.Models.DodjelaVozila
 
 @{
     ViewData["Title"] = "Create";
@@ -13,25 +13,25 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="IdUposlenika" class="control-label"></label>
+                <label asp-for="IdUposlenika" class="control-label">ID uposlenika</label>
                 <select asp-for="IdUposlenika" class ="form-control" asp-items="ViewBag.IdUposlenika"></select>
             </div>
             <div class="form-group">
-                <label asp-for="IdVozila" class="control-label"></label>
+                <label asp-for="IdVozila" class="control-label">ID vozila</label>
                 <select asp-for="IdVozila" class ="form-control" asp-items="ViewBag.IdVozila"></select>
             </div>
             <div class="form-group">
-                <label asp-for="Dodjeljeno" class="control-label"></label>
+                <label asp-for="Dodjeljeno" class="control-label">Datum dodjele</label>
                 <input asp-for="Dodjeljeno" class="form-control" />
                 <span asp-validation-for="Dodjeljeno" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="VratitiDo" class="control-label"></label>
+                <label asp-for="VratitiDo" class="control-label">Datum vraćanja</label>
                 <input asp-for="VratitiDo" class="form-control" />
                 <span asp-validation-for="VratitiDo" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Dodatak" class="control-label"></label>
+                <label asp-for="Dodatak" class="control-label">Dodatak</label>
                 <input asp-for="Dodatak" class="form-control" />
                 <span asp-validation-for="Dodatak" class="text-danger"></span>
             </div>
