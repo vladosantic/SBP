@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Data"
+    "\\Views",
+    "\\Views\\UposlenikKategorija"
   ],
-  "SelectedNode": "\\Data\\SustaviBpContext.cs",
+  "SelectedNode": "\\Views\\UposlenikKategorija\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
