@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EmEL2JFIa1UWsTvkh/CcsAUzkxTQzfff5SRfoE8ghxg=",
+  "Hash": "T3tkGsoPyW2iWup0qO3zW2PN/mqbW8P21K2lPb2LNJ4=",
   "Source": "VP",
   "BasePath": "_content/VP",
   "Mode": "Default",
@@ -49,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\SBP\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\VP.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\SBP\\wwwroot\\css\\_variables.scss",
+      "SourceId": "VP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\SBP\\wwwroot\\",
+      "BasePath": "_content/VP",
+      "RelativePath": "css/_variables.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\_variables.scss"
+    },
+    {
+      "Identity": "D:\\SBP\\wwwroot\\css\\bootstrap.css",
+      "SourceId": "VP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\SBP\\wwwroot\\",
+      "BasePath": "_content/VP",
+      "RelativePath": "css/bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
     },
     {
       "Identity": "D:\\SBP\\wwwroot\\css\\site.css",
