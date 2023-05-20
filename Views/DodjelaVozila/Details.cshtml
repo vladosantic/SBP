@@ -1,41 +1,41 @@
-@model VP.Models.DodjelaVozila
+﻿@model VP.Models.DodjelaVozila
 
 @{
     ViewData["Title"] = "Details of Dodjela vozila";
 }
 
-<h1>Details</h1>
-
+<h1 class="text-warning">Details</h1>
+<br/>
 <div>
     <h4>Dodjela vozila</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Dodjeljeno)
+           Datum dodjele
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Dodjeljeno)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.VratitiDo)
+            Datum vraćanja
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.VratitiDo)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Dodatak)
+            Dodatak
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Dodatak)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdUposlenikaNavigation)
+           ID uposlenika
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.IdUposlenikaNavigation.IdUposlenik)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdVozilaNavigation)
+            ID vozila
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.IdVozilaNavigation.IdVozila)
@@ -43,6 +43,6 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-outline-success" fdprocessedid="oaubug">Edit</a> 
+    <a asp-action="Index" class="btn btn-outline-light" fdprocessedid="tsh8mj">Back to List</a>
 </div>

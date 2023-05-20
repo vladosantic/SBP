@@ -7,11 +7,11 @@
 <h1>Pozicije</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-outline-primary" fdprocessedid="j5k4t7">Create New</a>
 </p>
 <table class="table">
     <thead>
-        <tr>
+        <tr class="table-secondary">
             <th>
                Naziv
             </th>
@@ -25,9 +25,9 @@
                 @Html.DisplayFor(modelItem => item.Naziv)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.PozicijaId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.PozicijaId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.PozicijaId">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.PozicijaId" class="btn btn-outline-success" fdprocessedid="oaubug">Edit</a> 
+                <a asp-action="Details" asp-route-id="@item.PozicijaId" class="btn btn-outline-warning" fdprocessedid="0i8oo">Details</a> 
+                <a asp-action="Delete" asp-route-id="@item.PozicijaId" class="btn btn-outline-danger" fdprocessedid="z0p2rq">Delete</a>
             </td>
         </tr>
 }

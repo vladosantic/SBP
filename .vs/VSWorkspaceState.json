@@ -2,8 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\Views",
-    "\\Views\\UposlenikKategorija"
+    "\\Views\\Pozicija",
+    "\\Views\\Shared",
+    "\\wwwroot",
+    "\\wwwroot\\css",
+    "\\wwwroot\\js"
   ],
-  "SelectedNode": "\\appsettings.json",
+  "SelectedNode": "\\Views\\Pozicija\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

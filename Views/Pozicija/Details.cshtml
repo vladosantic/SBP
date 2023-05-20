@@ -4,8 +4,8 @@
     ViewData["Title"] = "Details of Pozicija";
 }
 
-<h1>Details</h1>
-
+<h1 class="text-warning">Details</h1>
+<br/>
 <div>
     <h4>Pozicija</h4>
     <hr />
@@ -19,6 +19,6 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.PozicijaId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model?.PozicijaId" class="btn btn-outline-success" fdprocessedid="oaubug">Edit</a>
+    <a asp-action="Index" class="btn btn-outline-light" fdprocessedid="tsh8mj">Back to List</a>
 </div>
