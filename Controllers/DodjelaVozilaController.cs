@@ -21,8 +21,14 @@ namespace VP.Controllers
         // GET: DodjelaVozila
         public async Task<IActionResult> Index()
         {
-            var sustaviBpContext = _context.DodjelaVozilas.Include(d => d.IdUposlenikaNavigation).Include(d => d.IdVozilaNavigation);
-            return View(await sustaviBpContext.ToListAsync());
+            var sustaviBpContext = _context.DodjelaVozilas
+                .Include(d => d.IdUposlenikaNavigation)
+                .Include(d => d.IdVozilaNavigation)
+                    .ThenInclude(v => v.ModelVozilaNavigation); 
+
+            var dodjelaVozilas = await sustaviBpContext.ToListAsync();
+
+            return View(dodjelaVozilas);
         }
 
         // GET: DodjelaVozila/Details/5
@@ -36,7 +42,10 @@ namespace VP.Controllers
             var dodjelaVozila = await _context.DodjelaVozilas
                 .Include(d => d.IdUposlenikaNavigation)
                 .Include(d => d.IdVozilaNavigation)
+                    .ThenInclude(v => v.ModelVozilaNavigation)
+                      
                 .FirstOrDefaultAsync(m => m.Id == id);
+
             if (dodjelaVozila == null)
             {
                 return NotFound();
@@ -44,6 +53,8 @@ namespace VP.Controllers
 
             return View(dodjelaVozila);
         }
+
+
 
         // GET: DodjelaVozila/Create
         public IActionResult Create()

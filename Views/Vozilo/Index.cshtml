@@ -28,7 +28,7 @@
                 Kategorija
             </th>
             <th>
-                ID lokacije
+                Lokacija
             </th>
             <th>
                 Model vozila
@@ -58,13 +58,13 @@
                 @Html.DisplayFor(modelItem => item.Kategorija)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdLokacijeNavigation.Id)
+                @Html.DisplayFor(modelItem => item.IdLokacijeNavigation.NazivLokacije)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ModelVozilaNavigation.Id)
+                @Html.DisplayFor(modelItem => item.ModelVozilaNavigation.Naziv)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.VrstaVozilaNavigation.VrstaId)
+                @Html.DisplayFor(modelItem => item.VrstaVozilaNavigation.Naziv)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.IdVozila">Edit</a> |

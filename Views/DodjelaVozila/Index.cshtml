@@ -1,5 +1,6 @@
 ﻿@model IEnumerable<VP.Models.DodjelaVozila>
 
+
 @{
     ViewData["Title"] = "Dodjele vozila";
 }
@@ -16,44 +17,46 @@
                 Datum dodjele
             </th>
             <th>
-               Datum vraćanja
+                Datum vraćanja
             </th>
             <th>
-               Dodatak
+                Dodatak
             </th>
             <th>
-                ID uposlenika
+                Uposlenik
             </th>
             <th>
-                ID vozila
+                 Vozilo
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Dodjeljeno)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.VratitiDo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Dodatak)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdUposlenikaNavigation.IdUposlenik)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdVozilaNavigation.IdVozila)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Dodjeljeno)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VratitiDo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Dodatak)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdUposlenikaNavigation.Ime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdVozilaNavigation.ModelVozilaNavigation.Naziv)
+
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

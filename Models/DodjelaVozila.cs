@@ -27,4 +27,12 @@ public partial class DodjelaVozila
     public virtual Uposlenik? IdUposlenikaNavigation { get; set; } = null!;
 
     public virtual Vozilo? IdVozilaNavigation { get; set; } = null!;
+
+    public virtual ModelVozila? ModelVozila
+    {
+        get { return IdVozilaNavigation?.ModelVozilaNavigation; }
+    }
+
+
+    
 }

@@ -16,7 +16,7 @@
                Naziv
             </th>
             <th>
-              ID marke
+              Marka
             </th>
             <th></th>
         </tr>
@@ -28,7 +28,7 @@
                 @Html.DisplayFor(modelItem => item.Naziv)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdMarkeNavigation.Id)
+                @Html.DisplayFor(modelItem => item.IdMarkeNavigation.Naziv)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |

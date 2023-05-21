@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Models",
     "\\Views",
     "\\Views\\UposlenikKategorija"
   ],
-  "SelectedNode": "\\appsettings.json",
+  "SelectedNode": "\\Views\\UposlenikKategorija\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

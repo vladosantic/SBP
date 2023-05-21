@@ -13,10 +13,10 @@
     <thead>
         <tr>
             <th>
-                ID kategorije
+                Kategorija
             </th>
             <th>
-               ID uposlenika
+               Uposlenik
             </th>
             <th></th>
         </tr>
@@ -25,10 +25,10 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.IdKategorijeNavigation.IdKategorije)
+                @Html.DisplayFor(modelItem => item.IdKategorijeNavigation.NazivKategorije)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdUposlenikNavigation.IdUposlenik)
+                @Html.DisplayFor(modelItem => item.IdUposlenikNavigation.Ime)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
