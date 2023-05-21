@@ -4,8 +4,8 @@
     ViewData["Title"] = "Details of Model vozila";
 }
 
-<h1>Details</h1>
-
+<h1 class="text-warning">Details</h1>
+<br/>
 <div>
     <h4>Model vozila</h4>
     <hr />
@@ -17,7 +17,7 @@
             @Html.DisplayFor(model => model.Naziv)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdMarkeNavigation)
+           ID marke
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.IdMarkeNavigation.Id)
@@ -25,6 +25,6 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-outline-success" fdprocessedid="oaubug">Edit</a> 
+    <a asp-action="Index" class="btn btn-outline-light" fdprocessedid="tsh8mj">Back to List</a>
 </div>

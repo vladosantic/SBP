@@ -4,8 +4,8 @@
     ViewData["Title"] = "Edit Lokacija vozila";
 }
 
-<h1>Edit</h1>
-
+<h1 class="text-success">Edit</h1>
+<br/>
 <h4>Lokacija vozila</h4>
 <hr />
 <div class="row">
@@ -18,16 +18,15 @@
                 <input asp-for="NazivLokacije" class="form-control" />
                 <span asp-validation-for="NazivLokacije" class="text-danger"></span>
             </div>
+            <br/>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Save" class="btn btn-outline-primary" fdprocessedid="j5k4t7" />
+                <a asp-action="Index"  class="btn btn-outline-light" fdprocessedid="tsh8mj">Back to List</a>
             </div>
         </form>
     </div>
 </div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+<br/>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

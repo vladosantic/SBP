@@ -4,8 +4,8 @@
     ViewData["Title"] = "Create Kategorija uposlenika";
 }
 
-<h1>Create</h1>
-
+<h1 class="text-primary">Create</h1>
+<br/>
 <h4>Kategorija uposlenika</h4>
 <hr />
 <div class="row">
@@ -16,20 +16,20 @@
                 <label asp-for="IdUposlenik" class="control-label">ID uposlenika</label>
                 <select asp-for="IdUposlenik" class ="form-control" asp-items="ViewBag.IdUposlenik"></select>
             </div>
+            <br/>
             <div class="form-group">
                 <label asp-for="IdKategorije" class="control-label">ID kategorije</label>
                 <select asp-for="IdKategorije" class ="form-control" asp-items="ViewBag.IdKategorije"></select>
             </div>
+            <br/>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Create" class="btn btn-outline-primary" fdprocessedid="j5k4t7" />
+                <a asp-action="Index" class="btn btn-outline-light" fdprocessedid="tsh8mj">Back to List</a>
             </div>
         </form>
     </div>
 </div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+<br/>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

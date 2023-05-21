@@ -2,12 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\Views",
-    "\\Views\\Pozicija",
+    "\\Views\\Home",
     "\\Views\\Shared",
-    "\\wwwroot",
     "\\wwwroot\\css",
     "\\wwwroot\\js"
   ],
-  "SelectedNode": "\\Views\\Pozicija\\Index.cshtml",
+  "SelectedNode": "\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
