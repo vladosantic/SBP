@@ -1,12 +1,12 @@
-@model VP.Models.Uposlenik
+﻿@model VP.Models.Uposlenik
 
 @{
     ViewData["Title"] = "Delete Uposlenik";
 }
 
-<h1>Delete</h1>
-
-<h3>Are you sure you want to delete this?</h3>
+<h1 class="text-danger">Delete</h1>
+<br/>
+<h3 class="alert alert-dismissible alert-danger">Are you sure you want to delete this?</h3>
 <div>
     <h4>Uposlenik</h4>
     <hr />
@@ -30,13 +30,13 @@
             @Html.DisplayFor(model => model.Adresa)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.BrojMobitela)
+            Broj mobitela
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.BrojMobitela)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Jmbg)
+           JMBG
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Jmbg)
@@ -48,13 +48,13 @@
             @Html.DisplayFor(model => model.Email)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DatumRodjenja)
+           Datum rođenja
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.DatumRodjenja)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Pozicija)
+            ID pozicije
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Pozicija.PozicijaId)
@@ -63,7 +63,7 @@
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="IdUposlenik" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <input type="submit" value="Delete" class="btn btn-outline-danger" fdprocessedid="z0p2rq" /> 
+        <a asp-action="Index" class="btn btn-outline-light" fdprocessedid="tsh8mj">Back to List</a>
     </form>
 </div>

@@ -7,11 +7,11 @@
 <h1>Vozila</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-outline-primary" fdprocessedid="j5k4t7">Create New</a>
 </p>
 <table class="table">
     <thead>
-        <tr>
+        <tr class="table-secondary">
             <th>
                 Broj šasije
             </th>
@@ -67,9 +67,9 @@
                 @Html.DisplayFor(modelItem => item.VrstaVozilaNavigation.Naziv)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.IdVozila">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdVozila">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdVozila">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.IdVozila" class="btn btn-outline-success" fdprocessedid="oaubug">Edit</a> 
+                <a asp-action="Details" asp-route-id="@item.IdVozila" class="btn btn-outline-warning" fdprocessedid="0i8oo">Details</a> 
+                <a asp-action="Delete" asp-route-id="@item.IdVozila" class="btn btn-outline-danger" fdprocessedid="z0p2rq">Delete</a>
             </td>
         </tr>
 }

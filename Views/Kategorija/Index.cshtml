@@ -5,13 +5,12 @@
 }
 
 <h1>Kategorije</h1>
-
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-outline-primary" fdprocessedid="j5k4t7">Create New</a>
 </p>
 <table class="table">
     <thead>
-        <tr>
+        <tr class="table-secondary">
             <th>
                 Naziv kategorije
             </th>
@@ -31,9 +30,9 @@
                 @Html.DisplayFor(modelItem => item.OpisKategorije)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.IdKategorije">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdKategorije">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdKategorije">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.IdKategorije" class="btn btn-outline-success" fdprocessedid="oaubug">Edit</a> 
+                <a asp-action="Details" asp-route-id="@item.IdKategorije" class="btn btn-outline-warning" fdprocessedid="0i8oo">Details</a> 
+                <a asp-action="Delete" asp-route-id="@item.IdKategorije" class="btn btn-outline-danger" fdprocessedid="z0p2rq">Delete</a>
             </td>
         </tr>
 }

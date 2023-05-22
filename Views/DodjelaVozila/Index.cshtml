@@ -8,11 +8,11 @@
 <h1>Dodjele vozila</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-outline-primary" fdprocessedid="j5k4t7">Create New</a>
 </p>
 <table class="table">
     <thead>
-        <tr>
+        <tr class="table-secondary">
             <th>
                 Datum dodjele
             </th>
@@ -32,6 +32,7 @@
         </tr>
     </thead>
     <tbody>
+<<<<<<< HEAD
         @foreach (var item in Model)
         {
             <tr>
@@ -58,5 +59,31 @@
                 </td>
             </tr>
         }
+=======
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dodjeljeno)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VratitiDo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dodatak)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdUposlenikaNavigation.IdUposlenik)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdVozilaNavigation.IdVozila)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id"  class="btn btn-outline-success" fdprocessedid="oaubug">Edit</a> 
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-warning" fdprocessedid="0i8oo">Details</a> 
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger" fdprocessedid="z0p2rq">Delete</a>
+            </td>
+        </tr>
+}
+>>>>>>> 3835add415f63db361434444ab537671facb2793
     </tbody>
 </table>

@@ -3,8 +3,15 @@
     "",
     "\\Models",
     "\\Views",
-    "\\Views\\UposlenikKategorija"
+    "\\Views\\Home",
+    "\\Views\\Shared",
+    "\\wwwroot\\css",
+    "\\wwwroot\\js"
   ],
+<<<<<<< HEAD
   "SelectedNode": "\\Views\\UposlenikKategorija\\Index.cshtml",
+=======
+  "SelectedNode": "\\Views\\Home\\Index.cshtml",
+>>>>>>> 3835add415f63db361434444ab537671facb2793
   "PreviewInSolutionExplorer": false
 }

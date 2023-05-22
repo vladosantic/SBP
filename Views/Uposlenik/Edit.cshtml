@@ -4,8 +4,8 @@
     ViewData["Title"] = "Edit Uposlenik";
 }
 
-<h1>Edit</h1>
-
+<h1 class="text-success">Edit</h1>
+<br/>
 <h4>Uposlenik</h4>
 <hr />
 <div class="row">
@@ -18,51 +18,57 @@
                 <input asp-for="Ime" class="form-control" />
                 <span asp-validation-for="Ime" class="text-danger"></span>
             </div>
+            <br/>
             <div class="form-group">
                 <label asp-for="Prezime" class="control-label">Prezime</label>
                 <input asp-for="Prezime" class="form-control" />
                 <span asp-validation-for="Prezime" class="text-danger"></span>
             </div>
+             <br/>
             <div class="form-group">
                 <label asp-for="PozicijaId" class="control-label">ID pozicije</label>
                 <select asp-for="PozicijaId" class="form-control" asp-items="ViewBag.PozicijaId"></select>
                 <span asp-validation-for="PozicijaId" class="text-danger"></span>
             </div>
+            <br/>
             <div class="form-group">
                 <label asp-for="Adresa" class="control-label">Adresa</label>
                 <input asp-for="Adresa" class="form-control" />
                 <span asp-validation-for="Adresa" class="text-danger"></span>
             </div>
+            <br/>
             <div class="form-group">
                 <label asp-for="BrojMobitela" class="control-label">Broj mobitela</label>
                 <input asp-for="BrojMobitela" class="form-control" />
                 <span asp-validation-for="BrojMobitela" class="text-danger"></span>
             </div>
+            <br/>
             <div class="form-group">
                 <label asp-for="Jmbg" class="control-label">JMBG</label>
                 <input asp-for="Jmbg" class="form-control" />
                 <span asp-validation-for="Jmbg" class="text-danger"></span>
             </div>
+            <br/>
             <div class="form-group">
                 <label asp-for="Email" class="control-label">Email</label>
                 <input asp-for="Email" class="form-control" />
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
+            <br/>
             <div class="form-group">
                 <label asp-for="DatumRodjenja" class="control-label">Datum rođenja</label>
                 <input asp-for="DatumRodjenja" class="form-control" />
                 <span asp-validation-for="DatumRodjenja" class="text-danger"></span>
             </div>
+            <br/>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Save" class="btn btn-outline-primary" fdprocessedid="j5k4t7" />
+                <a asp-action="Index" class="btn btn-outline-light" fdprocessedid="tsh8mj">Back to List</a>
             </div>
         </form>
     </div>
 </div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+<br/>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
