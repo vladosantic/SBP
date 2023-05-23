@@ -37,4 +37,7 @@ public partial class Uposlenik
     public virtual Pozicija? Pozicija { get; set; } = null!;
 
     public virtual ICollection<UposlenikKategorija> UposlenikKategorijas { get; set; } = new List<UposlenikKategorija>();
+
+    public string ImePrezime => $"{Ime} {Prezime}";
+
 }

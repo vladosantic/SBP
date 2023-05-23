@@ -59,8 +59,8 @@ namespace VP.Controllers
         // GET: DodjelaVozila/Create
         public IActionResult Create()
         {
-            ViewData["IdUposlenika"] = new SelectList(_context.Uposleniks, "IdUposlenik", "IdUposlenik");
-            ViewData["IdVozila"] = new SelectList(_context.Vozilos, "IdVozila", "IdVozila");
+            ViewData["IdUposlenika"] = new SelectList(_context.Uposleniks, "IdUposlenik", "ImePrezime");
+            ViewData["IdVozila"] = new SelectList(_context.Vozilos, "IdVozila", "RegistracijskaOznaka");
             return View();
         }
 
@@ -77,8 +77,8 @@ namespace VP.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdUposlenika"] = new SelectList(_context.Uposleniks, "IdUposlenik", "IdUposlenik", dodjelaVozila.IdUposlenika);
-            ViewData["IdVozila"] = new SelectList(_context.Vozilos, "IdVozila", "IdVozila", dodjelaVozila.IdVozila);
+            ViewData["IdUposlenika"] = new SelectList(_context.Uposleniks, "IdUposlenik", "ImePrezime", dodjelaVozila.IdUposlenika);
+            ViewData["IdVozila"] = new SelectList(_context.Vozilos, "IdVozila", "RegistracijskaOznaka", dodjelaVozila.IdVozila);
             return View(dodjelaVozila);
         }
 
@@ -95,8 +95,8 @@ namespace VP.Controllers
             {
                 return NotFound();
             }
-            ViewData["IdUposlenika"] = new SelectList(_context.Uposleniks, "IdUposlenik", "IdUposlenik", dodjelaVozila.IdUposlenika);
-            ViewData["IdVozila"] = new SelectList(_context.Vozilos, "IdVozila", "IdVozila", dodjelaVozila.IdVozila);
+            ViewData["IdUposlenika"] = new SelectList(_context.Uposleniks, "IdUposlenik", "ImePrezime", dodjelaVozila.IdUposlenika);
+            ViewData["IdVozila"] = new SelectList(_context.Vozilos, "IdVozila", "RegistracijskaOznaka", dodjelaVozila.IdVozila);
             return View(dodjelaVozila);
         }
 
@@ -132,8 +132,8 @@ namespace VP.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdUposlenika"] = new SelectList(_context.Uposleniks, "IdUposlenik", "IdUposlenik", dodjelaVozila.IdUposlenika);
-            ViewData["IdVozila"] = new SelectList(_context.Vozilos, "IdVozila", "IdVozila", dodjelaVozila.IdVozila);
+            ViewData["IdUposlenika"] = new SelectList(_context.Uposleniks, "IdUposlenik", "ImePrezime", dodjelaVozila.IdUposlenika);
+            ViewData["IdVozila"] = new SelectList(_context.Vozilos, "IdVozila", "RegistracijskaOznaka", dodjelaVozila.IdVozila);
             return View(dodjelaVozila);
         }
 

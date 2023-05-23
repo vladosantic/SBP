@@ -47,7 +47,7 @@ namespace VP.Controllers
         // GET: Uposlenik/Create
         public IActionResult Create()
         {
-            ViewData["PozicijaId"] = new SelectList(_context.Pozicijas, "PozicijaId", "PozicijaId");
+            ViewData["PozicijaId"] = new SelectList(_context.Pozicijas, "PozicijaId", "Naziv");
             return View();
         }
 
@@ -64,7 +64,7 @@ namespace VP.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["PozicijaId"] = new SelectList(_context.Pozicijas, "PozicijaId", "PozicijaId", uposlenik.PozicijaId);
+            ViewData["PozicijaId"] = new SelectList(_context.Pozicijas, "PozicijaId", "Naziv", uposlenik.PozicijaId);
             return View(uposlenik);
         }
 
@@ -81,7 +81,7 @@ namespace VP.Controllers
             {
                 return NotFound();
             }
-            ViewData["PozicijaId"] = new SelectList(_context.Pozicijas, "PozicijaId", "PozicijaId", uposlenik.PozicijaId);
+            ViewData["PozicijaId"] = new SelectList(_context.Pozicijas, "PozicijaId", "Naziv", uposlenik.PozicijaId);
             return View(uposlenik);
         }
 
@@ -117,7 +117,7 @@ namespace VP.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["PozicijaId"] = new SelectList(_context.Pozicijas, "PozicijaId", "PozicijaId", uposlenik.PozicijaId);
+            ViewData["PozicijaId"] = new SelectList(_context.Pozicijas, "PozicijaId", "Naziv", uposlenik.PozicijaId);
             return View(uposlenik);
         }
 

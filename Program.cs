@@ -27,6 +27,8 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+app.UseExceptionHandler("/Error");
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

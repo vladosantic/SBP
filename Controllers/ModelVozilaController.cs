@@ -47,7 +47,7 @@ namespace VP.Controllers
         // GET: ModelVozila/Create
         public IActionResult Create()
         {
-            ViewData["IdMarke"] = new SelectList(_context.Markas, "Id", "Id");
+            ViewData["IdMarke"] = new SelectList(_context.Markas, "Id", "Naziv");
             return View();
         }
 
@@ -64,7 +64,7 @@ namespace VP.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdMarke"] = new SelectList(_context.Markas, "Id", "Id", modelVozila.IdMarke);
+            ViewData["IdMarke"] = new SelectList(_context.Markas, "Id", "Naziv", modelVozila.IdMarke);
             return View(modelVozila);
         }
 
@@ -81,7 +81,7 @@ namespace VP.Controllers
             {
                 return NotFound();
             }
-            ViewData["IdMarke"] = new SelectList(_context.Markas, "Id", "Id", modelVozila.IdMarke);
+            ViewData["IdMarke"] = new SelectList(_context.Markas, "Id", "Naziv", modelVozila.IdMarke);
             return View(modelVozila);
         }
 
@@ -117,7 +117,7 @@ namespace VP.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdMarke"] = new SelectList(_context.Markas, "Id", "Id", modelVozila.IdMarke);
+            ViewData["IdMarke"] = new SelectList(_context.Markas, "Id", "Naziv", modelVozila.IdMarke);
             return View(modelVozila);
         }
 

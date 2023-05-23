@@ -25,7 +25,7 @@
             </div>
             <br/>
             <div class="form-group">
-                <label asp-for="PozicijaId" class="control-label">ID pozicije</label>
+                <label asp-for="PozicijaId" class="control-label">Pozicija</label>
                 <select asp-for="PozicijaId" class ="form-control" asp-items="ViewBag.PozicijaId"></select>
             </div>
             <br/>
@@ -55,7 +55,7 @@
             <br/>
             <div class="form-group">
                 <label asp-for="DatumRodjenja" class="control-label">Datum rođenja</label>
-                <input asp-for="DatumRodjenja" class="form-control" />
+                <input asp-for="DatumRodjenja" class="form-control" type="date" />
                 <span asp-validation-for="DatumRodjenja" class="text-danger"></span>
             </div>
             <br/>

@@ -14,13 +14,13 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
             <div class="form-group">
-                <label asp-for="IdUposlenika" class="control-label">ID uposlenika</label>
+                <label asp-for="IdUposlenika" class="control-label">Uposlenik</label>
                 <select asp-for="IdUposlenika" class="form-control" asp-items="ViewBag.IdUposlenika"></select>
                 <span asp-validation-for="IdUposlenika" class="text-danger"></span>
             </div>
             <br/>
             <div class="form-group">
-                <label asp-for="IdVozila" class="control-label">ID vozila</label>
+                <label asp-for="IdVozila" class="control-label">Registracijska oznaka</label>
                 <select asp-for="IdVozila" class="form-control" asp-items="ViewBag.IdVozila"></select>
                 <span asp-validation-for="IdVozila" class="text-danger"></span>
             </div>

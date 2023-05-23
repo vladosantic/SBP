@@ -49,9 +49,9 @@ namespace VP.Controllers
         // GET: Vozilo/Create
         public IActionResult Create()
         {
-            ViewData["IdLokacije"] = new SelectList(_context.LokacijaVozilas, "Id", "Id");
-            ViewData["ModelVozila"] = new SelectList(_context.ModelVozilas, "Id", "Id");
-            ViewData["VrstaVozila"] = new SelectList(_context.VrstaVozilas, "VrstaId", "VrstaId");
+            ViewData["IdLokacije"] = new SelectList(_context.LokacijaVozilas, "Id", "NazivLokacije");
+            ViewData["ModelVozila"] = new SelectList(_context.ModelVozilas, "Id", "Naziv");
+            ViewData["VrstaVozila"] = new SelectList(_context.VrstaVozilas, "VrstaId", "Naziv");
             return View();
         }
 
@@ -68,9 +68,9 @@ namespace VP.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdLokacije"] = new SelectList(_context.LokacijaVozilas, "Id", "Id", vozilo.IdLokacije);
-            ViewData["ModelVozila"] = new SelectList(_context.ModelVozilas, "Id", "Id", vozilo.ModelVozila);
-            ViewData["VrstaVozila"] = new SelectList(_context.VrstaVozilas, "VrstaId", "VrstaId", vozilo.VrstaVozila);
+            ViewData["IdLokacije"] = new SelectList(_context.LokacijaVozilas, "Id", "NazivLokacije", vozilo.IdLokacije);
+            ViewData["ModelVozila"] = new SelectList(_context.ModelVozilas, "Id", "Naziv", vozilo.ModelVozila);
+            ViewData["VrstaVozila"] = new SelectList(_context.VrstaVozilas, "VrstaId", "Naziv", vozilo.VrstaVozila);
             return View(vozilo);
         }
 
@@ -87,9 +87,9 @@ namespace VP.Controllers
             {
                 return NotFound();
             }
-            ViewData["IdLokacije"] = new SelectList(_context.LokacijaVozilas, "Id", "Id", vozilo.IdLokacije);
-            ViewData["ModelVozila"] = new SelectList(_context.ModelVozilas, "Id", "Id", vozilo.ModelVozila);
-            ViewData["VrstaVozila"] = new SelectList(_context.VrstaVozilas, "VrstaId", "VrstaId", vozilo.VrstaVozila);
+            ViewData["IdLokacije"] = new SelectList(_context.LokacijaVozilas, "Id", "NazivLokacije", vozilo.IdLokacije);
+            ViewData["ModelVozila"] = new SelectList(_context.ModelVozilas, "Id", "Naziv", vozilo.ModelVozila);
+            ViewData["VrstaVozila"] = new SelectList(_context.VrstaVozilas, "VrstaId", "Naziv", vozilo.VrstaVozila);
             return View(vozilo);
         }
 
@@ -125,9 +125,9 @@ namespace VP.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdLokacije"] = new SelectList(_context.LokacijaVozilas, "Id", "Id", vozilo.IdLokacije);
-            ViewData["ModelVozila"] = new SelectList(_context.ModelVozilas, "Id", "Id", vozilo.ModelVozila);
-            ViewData["VrstaVozila"] = new SelectList(_context.VrstaVozilas, "VrstaId", "VrstaId", vozilo.VrstaVozila);
+            ViewData["IdLokacije"] = new SelectList(_context.LokacijaVozilas, "Id", "NazivLokacije", vozilo.IdLokacije);
+            ViewData["ModelVozila"] = new SelectList(_context.ModelVozilas, "Id", "Naziv", vozilo.ModelVozila);
+            ViewData["VrstaVozila"] = new SelectList(_context.VrstaVozilas, "VrstaId", "Naziv", vozilo.VrstaVozila);
             return View(vozilo);
         }
 

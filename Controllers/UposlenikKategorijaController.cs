@@ -48,8 +48,8 @@ namespace VP.Controllers
         // GET: UposlenikKategorija/Create
         public IActionResult Create()
         {
-            ViewData["IdKategorije"] = new SelectList(_context.Kategorijas, "IdKategorije", "IdKategorije");
-            ViewData["IdUposlenik"] = new SelectList(_context.Uposleniks, "IdUposlenik", "IdUposlenik");
+            ViewData["IdKategorije"] = new SelectList(_context.Kategorijas, "IdKategorije", "NazivKategorije");
+            ViewData["IdUposlenik"] = new SelectList(_context.Uposleniks, "IdUposlenik", "ImePrezime");
             return View();
         }
 
@@ -66,8 +66,8 @@ namespace VP.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdKategorije"] = new SelectList(_context.Kategorijas, "IdKategorije", "IdKategorije", uposlenikKategorija.IdKategorije);
-            ViewData["IdUposlenik"] = new SelectList(_context.Uposleniks, "IdUposlenik", "IdUposlenik", uposlenikKategorija.IdUposlenik);
+            ViewData["IdKategorije"] = new SelectList(_context.Kategorijas, "IdKategorije", "NazivKategorije", uposlenikKategorija.IdKategorije);
+            ViewData["IdUposlenik"] = new SelectList(_context.Uposleniks, "IdUposlenik", "ImePrezime", uposlenikKategorija.IdUposlenik);
             return View(uposlenikKategorija);
         }
 
@@ -84,8 +84,8 @@ namespace VP.Controllers
             {
                 return NotFound();
             }
-            ViewData["IdKategorije"] = new SelectList(_context.Kategorijas, "IdKategorije", "IdKategorije", uposlenikKategorija.IdKategorije);
-            ViewData["IdUposlenik"] = new SelectList(_context.Uposleniks, "IdUposlenik", "IdUposlenik", uposlenikKategorija.IdUposlenik);
+            ViewData["IdKategorije"] = new SelectList(_context.Kategorijas, "IdKategorije", "NazivKategorije", uposlenikKategorija.IdKategorije);
+            ViewData["IdUposlenik"] = new SelectList(_context.Uposleniks, "IdUposlenik", "ImePrezime", uposlenikKategorija.IdUposlenik);
             return View(uposlenikKategorija);
         }
 
@@ -121,8 +121,8 @@ namespace VP.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdKategorije"] = new SelectList(_context.Kategorijas, "IdKategorije", "IdKategorije", uposlenikKategorija.IdKategorije);
-            ViewData["IdUposlenik"] = new SelectList(_context.Uposleniks, "IdUposlenik", "IdUposlenik", uposlenikKategorija.IdUposlenik);
+            ViewData["IdKategorije"] = new SelectList(_context.Kategorijas, "IdKategorije", "NazivKategorije", uposlenikKategorija.IdKategorije);
+            ViewData["IdUposlenik"] = new SelectList(_context.Uposleniks, "IdUposlenik", "ImePrezime", uposlenikKategorija.IdUposlenik);
             return View(uposlenikKategorija);
         }
 

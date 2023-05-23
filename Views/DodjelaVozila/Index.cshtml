@@ -14,6 +14,12 @@
     <thead>
         <tr class="table-secondary">
             <th>
+                Uposlenik
+            </th>
+            <th>
+                Vozilo
+            </th>
+            <th>
                 Datum dodjele
             </th>
             <th>
@@ -22,65 +28,32 @@
             <th>
                 Dodatak
             </th>
-            <th>
-                Uposlenik
-            </th>
-            <th>
-                 Vozilo
-            </th>
             <th></th>
         </tr>
     </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Dodjeljeno)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.VratitiDo)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Dodatak)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.IdUposlenikaNavigation.Ime)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.IdVozilaNavigation.ModelVozilaNavigation.Naziv)
-
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-                </td>
-            </tr>
-        }
 @foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Dodjeljeno)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.VratitiDo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Dodatak)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdUposlenikaNavigation.IdUposlenik)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdVozilaNavigation.IdVozila)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id"  class="btn btn-outline-success" fdprocessedid="oaubug">Edit</a> 
-                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-warning" fdprocessedid="0i8oo">Details</a> 
-                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger" fdprocessedid="z0p2rq">Delete</a>
-            </td>
-        </tr>
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.IdUposlenikaNavigation.ImePrezime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IdVozilaNavigation.RegistracijskaOznaka)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dodjeljeno)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VratitiDo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dodatak)
+        </td>
+        <td>
+            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-success" fdprocessedid="oaubug">Edit</a>
+            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-warning" fdprocessedid="0i8oo">Details</a>
+            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger" fdprocessedid="z0p2rq">Delete</a>
+        </td>
+    </tr>
 }
-    </tbody>
+</tbody>
 </table>
