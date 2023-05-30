@@ -10,7 +10,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Create" enctype="multipart/form-data" method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="ModelVozila" class="control-label">Model vozila</label>
@@ -56,7 +56,12 @@
                 <input asp-for="Kategorija" class="form-control" />
                 <span asp-validation-for="Kategorija" class="text-danger"></span>
             </div>
-            <br/>
+            <div class="form-group">
+                <label asp-for="PictureName" class="control-label">Slika vozila</label>
+                <input type="file" name="file" class="form-control" />
+            </div>
+
+            <br />
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-outline-primary" fdprocessedid="j5k4t7" />
                 <a asp-action="Index" class="btn btn-outline-light" fdprocessedid="tsh8mj">Back to List</a>

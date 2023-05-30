@@ -13,6 +13,9 @@
     <thead>
         <tr class="table-secondary">
             <th>
+                Slika vozila
+            </th>
+            <th>
                 Broj šasije
             </th>
             <th>
@@ -40,8 +43,18 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+        @foreach (var item in Model) {
         <tr>
+            <td>
+            @if (!string.IsNullOrEmpty(item.PictureName) && item.PictureData.Length > 0)
+                {
+                    <img src="data:image/png;base64,@Convert.ToBase64String(item.PictureData)" alt="Photo" width="120" height="80" />
+                }
+                else
+                {
+                    <span>No photo available</span>
+                }
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.BrojSasije)
             </td>
@@ -67,8 +80,8 @@
                 @Html.DisplayFor(modelItem => item.VrstaVozilaNavigation.Naziv)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.IdVozila" class="btn btn-outline-success" fdprocessedid="oaubug">Edit</a> 
-                <a asp-action="Details" asp-route-id="@item.IdVozila" class="btn btn-outline-warning" fdprocessedid="0i8oo">Details</a> 
+                <a asp-action="Edit" asp-route-id="@item.IdVozila" class="btn btn-outline-success" fdprocessedid="oaubug">Edit</a>
+                <a asp-action="Details" asp-route-id="@item.IdVozila" class="btn btn-outline-warning" fdprocessedid="0i8oo">Details</a>
                 <a asp-action="Delete" asp-route-id="@item.IdVozila" class="btn btn-outline-danger" fdprocessedid="z0p2rq">Delete</a>
             </td>
         </tr>

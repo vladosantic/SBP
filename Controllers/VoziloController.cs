@@ -60,19 +60,36 @@ namespace VP.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdVozila,ModelVozila,BrojSasije,RegistracijskaOznaka,GodinaProizvodnje,VrstaVozila,IdLokacije,Gorivo,Kategorija")] Vozilo vozilo)
+        public async Task<IActionResult> Create([Bind("IdVozila,ModelVozila,BrojSasije,RegistracijskaOznaka,GodinaProizvodnje,VrstaVozila,IdLokacije,Gorivo,Kategorija")] Vozilo vozilo, IFormFile file)
         {
             if (ModelState.IsValid)
             {
+                if (file != null && file.Length > 0)
+                {
+                    byte[] fileData;
+                    using (var memoryStream = new MemoryStream())
+                    {
+                        file.CopyTo(memoryStream);
+                        fileData = memoryStream.ToArray();
+                    }
+
+                    vozilo.PictureName = file.FileName;
+                    vozilo.PictureData = fileData;
+                }
+
                 _context.Add(vozilo);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdLokacije"] = new SelectList(_context.LokacijaVozilas, "Id", "NazivLokacije", vozilo.IdLokacije);
-            ViewData["ModelVozila"] = new SelectList(_context.ModelVozilas, "Id", "Naziv", vozilo.ModelVozila);
-            ViewData["VrstaVozila"] = new SelectList(_context.VrstaVozilas, "VrstaId", "Naziv", vozilo.VrstaVozila);
+
+            // Populate the ViewBag with dropdown data
+            ViewBag.IdLokacije = new SelectList(_context.LokacijaVozilas, "Id", "NazivLokacije", vozilo.IdLokacije);
+            ViewBag.ModelVozila = new SelectList(_context.ModelVozilas, "Id", "Naziv", vozilo.ModelVozila);
+            ViewBag.VrstaVozila = new SelectList(_context.VrstaVozilas, "VrstaId", "Naziv", vozilo.VrstaVozila);
+
             return View(vozilo);
         }
+
 
         // GET: Vozilo/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -98,7 +115,7 @@ namespace VP.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdVozila,ModelVozila,BrojSasije,RegistracijskaOznaka,GodinaProizvodnje,VrstaVozila,IdLokacije,Gorivo,Kategorija")] Vozilo vozilo)
+        public async Task<IActionResult> Edit(int id, [Bind("IdVozila,ModelVozila,BrojSasije,RegistracijskaOznaka,GodinaProizvodnje,VrstaVozila,IdLokacije,Gorivo,Kategorija")] Vozilo vozilo, IFormFile file)
         {
             if (id != vozilo.IdVozila)
             {
@@ -107,6 +124,18 @@ namespace VP.Controllers
 
             if (ModelState.IsValid)
             {
+                if (file != null && file.Length > 0)
+                {
+                    byte[] fileData;
+                    using (var memoryStream = new MemoryStream())
+                    {
+                        file.CopyTo(memoryStream);
+                        fileData = memoryStream.ToArray();
+                    }
+
+                    vozilo.PictureName = file.FileName;
+                    vozilo.PictureData = fileData;
+                }
                 try
                 {
                     _context.Update(vozilo);

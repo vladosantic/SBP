@@ -39,5 +39,9 @@ public partial class Vozilo
 
     public virtual ModelVozila? ModelVozilaNavigation { get; set; } 
 
-    public virtual VrstaVozila? VrstaVozilaNavigation { get; set; } 
+    public virtual VrstaVozila? VrstaVozilaNavigation { get; set; }
+
+    public string? PictureName { get; set; }
+
+    public byte[]? PictureData { get; set; }
 }

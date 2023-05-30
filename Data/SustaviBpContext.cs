@@ -247,6 +247,13 @@ public partial class SustaviBpContext : DbContext
                 .HasForeignKey(d => d.VrstaVozila)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("fk_Vozilo_vrsta_vozila");
+            entity.Property(e => e.PictureName)
+                .HasMaxLength(255)
+                .IsRequired(false);
+            entity.Property(e => e.PictureData)
+                .HasColumnType("bytea")
+                .IsRequired(false);
+
         });
 
         modelBuilder.Entity<VrstaVozila>(entity =>
