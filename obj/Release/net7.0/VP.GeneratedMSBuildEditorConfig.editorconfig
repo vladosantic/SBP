@@ -9,237 +9,237 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VP
 build_property.RootNamespace = VP
-build_property.ProjectDir = D:\SBP\
+build_property.ProjectDir = C:\Users\User\Desktop\SBP\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\SBP
+build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\SBP
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/SBP/Views/DodjelaVozila/Create.cshtml]
+[C:/Users/User/Desktop/SBP/Views/DodjelaVozila/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9kamVsYVZvemlsYVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/DodjelaVozila/Delete.cshtml]
+[C:/Users/User/Desktop/SBP/Views/DodjelaVozila/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9kamVsYVZvemlsYVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/DodjelaVozila/Details.cshtml]
+[C:/Users/User/Desktop/SBP/Views/DodjelaVozila/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9kamVsYVZvemlsYVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/DodjelaVozila/Edit.cshtml]
+[C:/Users/User/Desktop/SBP/Views/DodjelaVozila/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9kamVsYVZvemlsYVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/DodjelaVozila/Index.cshtml]
+[C:/Users/User/Desktop/SBP/Views/DodjelaVozila/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9kamVsYVZvemlsYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Home/Index.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Home/Privacy.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Kategorija/Create.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Kategorija/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlqYVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Kategorija/Delete.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Kategorija/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlqYVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Kategorija/Details.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Kategorija/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlqYVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Kategorija/Edit.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Kategorija/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlqYVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Kategorija/Index.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Kategorija/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlqYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/LokacijaVozila/Create.cshtml]
+[C:/Users/User/Desktop/SBP/Views/LokacijaVozila/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYWNpamFWb3ppbGFcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/LokacijaVozila/Delete.cshtml]
+[C:/Users/User/Desktop/SBP/Views/LokacijaVozila/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYWNpamFWb3ppbGFcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/LokacijaVozila/Details.cshtml]
+[C:/Users/User/Desktop/SBP/Views/LokacijaVozila/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYWNpamFWb3ppbGFcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/LokacijaVozila/Edit.cshtml]
+[C:/Users/User/Desktop/SBP/Views/LokacijaVozila/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYWNpamFWb3ppbGFcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/LokacijaVozila/Index.cshtml]
+[C:/Users/User/Desktop/SBP/Views/LokacijaVozila/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYWNpamFWb3ppbGFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Marka/Create.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Marka/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2FcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Marka/Delete.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Marka/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2FcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Marka/Details.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Marka/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2FcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Marka/Edit.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Marka/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2FcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Marka/Index.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Marka/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2FcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/ModelVozila/Create.cshtml]
+[C:/Users/User/Desktop/SBP/Views/ModelVozila/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxWb3ppbGFcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/ModelVozila/Delete.cshtml]
+[C:/Users/User/Desktop/SBP/Views/ModelVozila/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxWb3ppbGFcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/ModelVozila/Details.cshtml]
+[C:/Users/User/Desktop/SBP/Views/ModelVozila/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxWb3ppbGFcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/ModelVozila/Edit.cshtml]
+[C:/Users/User/Desktop/SBP/Views/ModelVozila/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxWb3ppbGFcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/ModelVozila/Index.cshtml]
+[C:/Users/User/Desktop/SBP/Views/ModelVozila/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxWb3ppbGFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Pozicija/Create.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Pozicija/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96aWNpamFcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Pozicija/Delete.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Pozicija/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96aWNpamFcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Pozicija/Details.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Pozicija/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96aWNpamFcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Pozicija/Edit.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Pozicija/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96aWNpamFcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Pozicija/Index.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Pozicija/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96aWNpamFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Shared/Error.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/UposlenikKategorija/Create.cshtml]
+[C:/Users/User/Desktop/SBP/Views/UposlenikKategorija/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBvc2xlbmlrS2F0ZWdvcmlqYVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/UposlenikKategorija/Delete.cshtml]
+[C:/Users/User/Desktop/SBP/Views/UposlenikKategorija/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBvc2xlbmlrS2F0ZWdvcmlqYVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/UposlenikKategorija/Details.cshtml]
+[C:/Users/User/Desktop/SBP/Views/UposlenikKategorija/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBvc2xlbmlrS2F0ZWdvcmlqYVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/UposlenikKategorija/Edit.cshtml]
+[C:/Users/User/Desktop/SBP/Views/UposlenikKategorija/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBvc2xlbmlrS2F0ZWdvcmlqYVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/UposlenikKategorija/Index.cshtml]
+[C:/Users/User/Desktop/SBP/Views/UposlenikKategorija/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBvc2xlbmlrS2F0ZWdvcmlqYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Uposlenik/Create.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Uposlenik/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBvc2xlbmlrXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Uposlenik/Delete.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Uposlenik/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBvc2xlbmlrXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Uposlenik/Details.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Uposlenik/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBvc2xlbmlrXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Uposlenik/Edit.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Uposlenik/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBvc2xlbmlrXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Uposlenik/Index.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Uposlenik/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBvc2xlbmlrXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Vozilo/Create.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Vozilo/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm96aWxvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Vozilo/Delete.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Vozilo/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm96aWxvXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Vozilo/Details.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Vozilo/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm96aWxvXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Vozilo/Edit.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Vozilo/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm96aWxvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Vozilo/Index.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Vozilo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm96aWxvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/VrstaVozila/Create.cshtml]
+[C:/Users/User/Desktop/SBP/Views/VrstaVozila/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVnJzdGFWb3ppbGFcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/VrstaVozila/Delete.cshtml]
+[C:/Users/User/Desktop/SBP/Views/VrstaVozila/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVnJzdGFWb3ppbGFcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/VrstaVozila/Details.cshtml]
+[C:/Users/User/Desktop/SBP/Views/VrstaVozila/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVnJzdGFWb3ppbGFcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/VrstaVozila/Edit.cshtml]
+[C:/Users/User/Desktop/SBP/Views/VrstaVozila/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVnJzdGFWb3ppbGFcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/VrstaVozila/Index.cshtml]
+[C:/Users/User/Desktop/SBP/Views/VrstaVozila/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVnJzdGFWb3ppbGFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/_ViewImports.cshtml]
+[C:/Users/User/Desktop/SBP/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/_ViewStart.cshtml]
+[C:/Users/User/Desktop/SBP/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SBP/Views/Shared/_Layout.cshtml]
+[C:/Users/User/Desktop/SBP/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-z6gbnodv40

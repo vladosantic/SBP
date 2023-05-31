@@ -1,17 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Models",
+    "\\Data",
     "\\Views",
-    "\\Views\\Home",
-    "\\Views\\Shared",
-    "\\wwwroot\\css",
-    "\\wwwroot\\js"
+    "\\Views\\Vozilo"
   ],
-<<<<<<< HEAD
-  "SelectedNode": "\\Views\\UposlenikKategorija\\Index.cshtml",
-=======
-  "SelectedNode": "\\Views\\Home\\Index.cshtml",
->>>>>>> 3835add415f63db361434444ab537671facb2793
+  "SelectedNode": "\\Data\\SustaviBpContext.cs",
   "PreviewInSolutionExplorer": false
 }
